@@ -1,0 +1,206 @@
+   @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+#main {
+ width: 100%;
+ padding: 0;
+}
+.content-asset p {
+ margin: 0 auto;
+}
+.breadcrumb {
+ display: none;
+}
+
+#flat h1 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 24px;
+ font-weight: 400;
+ text-transform: uppercase;
+ color: black;
+ padding: 0;
+ margin: 0;
+}
+
+#flat h2 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 70px;
+ letter-spacing: 10px;
+ text-align: center;
+ color: white;
+ font-weight: 400;
+ text-transform: uppercase;
+ z-index: 10;
+ opacity: .9;
+}
+
+#flat h3 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 14px;
+ line-height: 0;
+ font-weight: 400;
+ letter-spacing: 8px;
+ text-transform: uppercase;
+ color: black;
+}
+
+#flat p {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 24px;
+}
+
+.first-character {
+ font-weight: 400;
+ float: left;
+ font-size: 84px;
+ line-height: 64px;
+ padding-top: 4px;
+ padding-right: 8px;
+ padding-left: 3px;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+#flat .fl {
+ color: #346011;
+}
+
+#flat .sl {
+ color: #f5cf22;
+}
+
+#flat .tl {
+ color: #2e2d59;
+}
+
+#flat .title {
+ background: white;
+ padding: 60px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+#flat .title h1 {
+ font-size: 35px;
+ letter-spacing: 8px;
+}
+
+#flat .block {
+ background: white;
+ padding: 6px;
+ width: 820px;
+ margin: 0 auto;
+ text-align: justify;
+}
+
+#flat .block-gray {
+ background: #f2f2f2;
+ padding: 6px;
+}
+
+#flat .section-overlay-mask {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: black;
+ opacity: 0.70;
+}
+
+#flat .parallax-one {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githack.com/petukhovali/21/main/1655403672_1-gas-kvas-com-p-foto-voskhod-priroda-1.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+}
+
+#flat .line-break {
+ background: linear-gradient(60deg, #346011, #f5cf22, #2e2d59);
+ width: 100%;
+ margin: 0 auto;
+}
+
+#flat .line-break2 {
+ background: linear-gradient(60deg, #f5cf22, #2e2d59, #346011);
+ width: 100%;
+ margin: 0 auto;
+}
+
+#flat .line-break3 {
+ background: linear-gradient(60deg, #2e2d59, #346011, #f5cf22);
+ width: 100%;
+ margin: 0 auto;
+}
+
+#flat .parallax-two {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githack.com/petukhovali/21/main/1920x1200_840445_[www.ArtFile.ru].jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+
+
+#flat .parallax-three {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githack.com/petukhovali/21/main/4507b6592a703b52d0bc05957538ae53.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+ #flat .block {
+  padding: 40px;
+  width: 620px;
+ }
+}
+@media screen and (max-width: 767px) {
+ #flat .block {
+  padding: 30px;
+  width: 420px;
+ }
+ #flat h2 {
+  font-size: 30px;
+ }
+ #flat .block {
+  padding: 30px;
+ }
+ #flat .parallax-one, #flat .parallax-two, #flat .parallax-three {
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
+}
+@media screen and (max-width: 479px) {
+ #flat .block {
+  padding: 30px 15px;
+  width: 290px;
+ }
+}
